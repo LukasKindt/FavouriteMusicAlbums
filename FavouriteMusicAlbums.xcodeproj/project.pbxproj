@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		80B8C471256BF9C300D8A125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C470256BF9C300D8A125 /* AppDelegate.swift */; };
 		80B8C473256BF9C300D8A125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C472256BF9C300D8A125 /* SceneDelegate.swift */; };
-		80B8C475256BF9C300D8A125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C474256BF9C300D8A125 /* ViewController.swift */; };
 		80B8C478256BF9C300D8A125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B8C476256BF9C300D8A125 /* Main.storyboard */; };
 		80B8C47A256BF9C400D8A125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B8C479256BF9C400D8A125 /* Assets.xcassets */; };
 		80B8C47D256BF9C400D8A125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B8C47B256BF9C400D8A125 /* LaunchScreen.storyboard */; };
 		80B8C488256BF9C400D8A125 /* FavouriteMusicAlbumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C487256BF9C400D8A125 /* FavouriteMusicAlbumsTests.swift */; };
 		80B8C493256BF9C400D8A125 /* FavouriteMusicAlbumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C492256BF9C400D8A125 /* FavouriteMusicAlbumsUITests.swift */; };
+		80B8C4A4256C01FC00D8A125 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C4A3256C01FC00D8A125 /* Overview.swift */; };
+		80B8C4AC256E806600D8A125 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C4AB256E806600D8A125 /* CollectionViewController.swift */; };
+		80B8C4B1256E971900D8A125 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8C4B0256E971900D8A125 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		80B8C46D256BF9C300D8A125 /* FavouriteMusicAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteMusicAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B8C470256BF9C300D8A125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80B8C472256BF9C300D8A125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80B8C474256BF9C300D8A125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80B8C477256BF9C300D8A125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80B8C479256BF9C400D8A125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B8C47C256BF9C400D8A125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		80B8C48E256BF9C400D8A125 /* FavouriteMusicAlbumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavouriteMusicAlbumsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B8C492256BF9C400D8A125 /* FavouriteMusicAlbumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteMusicAlbumsUITests.swift; sourceTree = "<group>"; };
 		80B8C494256BF9C400D8A125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B8C4A3256C01FC00D8A125 /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		80B8C4AB256E806600D8A125 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		80B8C4B0256E971900D8A125 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				80B8C470256BF9C300D8A125 /* AppDelegate.swift */,
 				80B8C472256BF9C300D8A125 /* SceneDelegate.swift */,
-				80B8C474256BF9C300D8A125 /* ViewController.swift */,
 				80B8C476256BF9C300D8A125 /* Main.storyboard */,
 				80B8C479256BF9C400D8A125 /* Assets.xcassets */,
 				80B8C47B256BF9C400D8A125 /* LaunchScreen.storyboard */,
 				80B8C47E256BF9C400D8A125 /* Info.plist */,
+				80B8C4A3256C01FC00D8A125 /* Overview.swift */,
+				80B8C4AB256E806600D8A125 /* CollectionViewController.swift */,
+				80B8C4B0256E971900D8A125 /* CollectionViewCell.swift */,
 			);
 			path = FavouriteMusicAlbums;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B8C475256BF9C300D8A125 /* ViewController.swift in Sources */,
+				80B8C4B1256E971900D8A125 /* CollectionViewCell.swift in Sources */,
+				80B8C4AC256E806600D8A125 /* CollectionViewController.swift in Sources */,
+				80B8C4A4256C01FC00D8A125 /* Overview.swift in Sources */,
 				80B8C471256BF9C300D8A125 /* AppDelegate.swift in Sources */,
 				80B8C473256BF9C300D8A125 /* SceneDelegate.swift in Sources */,
 			);
